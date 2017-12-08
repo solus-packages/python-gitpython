@@ -1,0 +1,235 @@
+<PISI>
+    <Source>
+        <Name>python-gitpython</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.</Summary>
+        <Description xml:lang="en">GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-gitpython</Name>
+        <Summary xml:lang="en">GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.</Summary>
+        <Description xml:lang="en">GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/GitPython-2.1.7-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/GitPython-2.1.7-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/GitPython-2.1.7-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/GitPython-2.1.7-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/GitPython-2.1.7-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/GitPython-2.1.7-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/cmd.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/cmd.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/compat.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/compat.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/db.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/db.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/diff.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/diff.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/exc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/exc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/fun.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/fun.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/typ.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/typ.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/index/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/blob.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/blob.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/commit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/commit.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/fun.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/fun.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/root.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/root.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/submodule/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/tag.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/tag.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/tree.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/tree.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/objects/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/odict.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/odict.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/head.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/head.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/log.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/log.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/reference.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/reference.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/remote.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/remote.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/symbolic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/symbolic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/tag.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/refs/tag.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/remote.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/remote.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/repo/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/repo/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/repo/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/repo/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/repo/fun.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/repo/fun.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/blame</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/blame_binary</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/blame_complex_revision</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/blame_incremental</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/blame_incremental_2.11.1_plus</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/cat_file.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/cat_file.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/cat_file_blob</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/cat_file_blob_nl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/cat_file_blob_size</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/commit_invalid_data</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/commit_with_gpgsig</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_2</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_2f</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_abbrev-40_full-index_M_raw_no-color</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_f</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_file_with_spaces</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_i</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_index_patch</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_index_raw</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_initial</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_mode_only</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_new_mode</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_numstat</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_p</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_patch_binary</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_patch_unsafe_paths</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_raw_binary</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_rename</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_rename_raw</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/diff_tree_numstat_root</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/for_each_ref_with_path_component</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/git_config</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/git_config_global</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/git_config_with_comments</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/git_config_with_empty_value</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/git_file</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/index</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/index_merge</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/issue-301_stderr</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/ls_tree_a</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/ls_tree_b</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/ls_tree_commit</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/ls_tree_empty</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_HEAD</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_invalid_date</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_invalid_email</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_invalid_newsha</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_invalid_oldsha</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_invalid_sep</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/reflog_master</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_bisect_all</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_commit_diffs</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_commit_idabbrev</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_commit_stats</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_count</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_delta_a</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_delta_b</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_list_single</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/rev_parse</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/show_empty_commit</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/uncommon_branch_prefix_FETCH_HEAD</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/fixtures/uncommon_branch_prefix_stderr</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/lib/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/lib/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/lib/asserts.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/lib/asserts.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/lib/helper.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/lib/helper.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/lib.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/lib.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/test_commit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/test_commit.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/test_odb.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/test_odb.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/test_streams.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/performance/test_streams.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_actor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_actor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_blob.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_blob.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_commit.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_commit.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_db.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_db.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_diff.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_diff.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_docs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_docs.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_exc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_exc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_fun.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_fun.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_git.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_git.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_index.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_index.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_reflog.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_reflog.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_refs.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_refs.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_remote.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_remote.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_repo.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_repo.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_stats.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_stats.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_submodule.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_submodule.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_tree.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_tree.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/test/test_util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/git/util.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-08</Date>
+            <Version>2.1.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
