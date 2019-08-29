@@ -1,20 +1,20 @@
 name       : python-gitpython
-version    : 2.1.7
-release    : 1
+version    : 3.0.0
+release    : 2
 source     :
-    - https://github.com/gitpython-developers/GitPython/archive/2.1.7.tar.gz : 6966c4d91c9e8c0d782446157c123d009297fb36addcf6b1f55e1ec258c26b11
+    - https://files.pythonhosted.org/packages/da/87/9dbf6d3d2a10c41a6c2fc3d32255fff3413e1ce197997a7ba9d5578d4f0d/GitPython-3.0.0.tar.gz : 629867ebf609cef21bb9d849039e281e25963fb7d714a2f6bacc1ecce4800293
 license    : BSD-3-Clause
 component  : programming.python
 summary    : GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
 description: |
     GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
-builddeps  :
-    - python-gitdb2
-    - python-setuptools
 rundeps    :
     - git
-    - python-gitdb2    
+    - python-ddt
+    - python-gitdb2
+setup      : |
+    sed '/gitdb[^2]/d' -i requirements.txt
 build      : |
-    %python_setup
+    %python3_setup
 install    : |
-    %python_install
+    %python3_install
